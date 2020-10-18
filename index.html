@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Box Icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Responsive Portfolio Website</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Samuel</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="assets/img/computer.png" alt="">
+                    </div>
+
+                    <h1 class="home__title">Samuel Palmer</h1>
+                    <span class="home__profession">Web Developer</span>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/samuelfpalmer/" class="home__social-link"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://github.com/sandboni" class="home__social-link"><i class='bx bxl-github' ></i></a>
+                        <!-- <a href="#" class="home__social-link"><i class='bx bxl-dribbble' ></i></a> -->
+                        <!-- <a href="#" class="home__social-link"><i class='bx bxl-behance' ></i></a> -->
+                    </div>
+
+                    <a download="" href="assets/pdf/resume.pdf" class="button home__button">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <span class="section-subtitle">My Intro</span>
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">I'm a recently graduated developer, with a focus on websites and interfaces. I have worked on some projects but would always like to get more experience in the field.</p>
+                    <img src="assets/img/IMG_8362.jpg" alt="" class="about__img">
+                </div>
+
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">Information</h3>
+    
+                        <div class="about__information-data">
+                            <i class ='bx bx-user about__information-icon' ></i>
+                            <span>Samuel Palmer</span>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class ='bx bx-phone about__information-icon' ></i>
+                            <span>(608) 630-4630</span>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class ='bx bx-envelope about__information-icon' ></i>
+                            <span>samuelfredrickpalmer@gmail.com</span>
+                        </div>
+                    </div>
+    
+                    <div class="about__information">
+                        <h3 class="about__information-title">Experience</h3>
+    
+                        <div class="about__information-data">
+                            <i class ='bx bx-medal about__information-icon' ></i>
+                            <div>
+                                <span class="about__information-subtitle">3+ Years Working</span>
+                                <span class="about__information-subtitle-small">With Many Languages</span>
+                            </div>
+                        </div>
+                        <div class="about__information-data">
+                            <i class ='bx bx-paint about__information-icon' ></i>
+                            <div>
+                                <span class="about__information-subtitle">Graphic Design</span>
+                                <span class="about__information-subtitle-small">Experience</span>
+                            </div>
+                        </div>
+                        <!-- <div class="about__information-data">
+                            <i class ='bx bx-support about__information-icon' ></i>
+                            <div>
+                                <span class="about__information-subtitle">Support</span>
+                                <span class="about__information-subtitle-small">Online 24/7</span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Why Choose Me</span>
+            <h2 class="section-title">My Expertise Area</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Frontend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">HTML/CSS</span>
+                        <span class="skills__number">90%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">JavaScript</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__js"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">React</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__react"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Angular</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__angular"></span>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Backend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">PHP</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__php"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Node.JS</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__node"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">MySQL</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__mysql"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Python</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__python"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Education -->
+        <section class="education section">
+            <span class="section-subtitle">Qualifications</span>
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2016 - 2020</h3>
+                        <span class="education__university">Creighton University</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Bachelor's of Science</h3>
+                        <span class="education__specialty">Computer Science: Digital Development</span>
+                        <span class="education__specialty">& Minor in Graphic Design</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Services -->
+        <section class="services section" id="services">
+            <span class="section-subtitle">What I Offer</span>
+            <h2 class="section-title">My Services</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <i class='bx bx-code services__icon' ></i>
+                    <h3 class="services__title">Responsive Web Design</h3>
+                    <p class="services__description">Responsive websites are my priority when developing sites. Making sure the website is accessible on all devices is necessary.</p>
+                </div>
+                <div class="services__content">
+                    <i class='bx bx-pen services__icon' ></i>
+                    <h3 class="services__title">Graphic Design</h3>
+                    <p class="services__description">Experience with many graphic applications. The main applications that I use are from the Adobe Creative Suite.</p>
+                </div>
+                <!-- <div class="services__content">
+                    <i class='bx bx-brush services__icon' ></i>
+                    <h3 class="services__title">UI/UX</h3>
+                    <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                </div> -->
+                <div class="services__content">
+                    <i class='bx bx-server services__icon' ></i>
+                    <h3 class="services__title">Backend Development</h3>
+                    <p class="services__description">The database that I use to store my website data is MySQL. My backend development is not as refined as my frontend, but I am always willing to learn more.</p>
+                </div>
+                <!-- <div class="services__content">
+                    <i class='bx bx-pencil services__icon' ></i>
+                    <h3 class="services__title">Content Writing</h3>
+                    <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                </div> -->
+                <!-- <div class="services__content">
+                    <i class='bx bx-mobile services__icon' ></i>
+                    <h3 class="services__title">Respnosive Website</h3>
+                    <p class="services__description">Responsive websites are my priority when developing sites. Making sure the website is accessible on all devices is necessary.</p>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Project -->
+        <section class="project section">
+            <div class="project__container bd-grid">
+                <div class="project__data">
+                    <h2 class="section-title project__title">Do You Have a Project in Mind?</h2>
+                    <p class="project__description">If you have a project in mind, don't hesitate to ask! I am more than willing to help others out with creating and maintaing websites.</p>
+                    <a href="#contact" class="button button__light">Contact Me</a>
+                </div>
+
+                <img src="assets/img/coding.png" alt="" class="project__img">
+            </div>
+        </section>
+
+        <!-- Works -->
+        <section class="works section" id="works">
+            <span class="section-subtitle">My Portfolio</span>
+            <h2 class="section-title">Recent Works</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img">
+                    <img src="assets/img/work1.jpg" alt="">
+
+                    <div class="works__data">
+                        <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                        <span class="works__title">Work 1</span>
+                    </div>
+                </div>
+                <div class="works__img">
+                    <img src="assets/img/work2.jpg" alt="">
+
+                    <div class="works__data">
+                        <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                        <span class="works__title">Work 2</span>
+                    </div>
+                </div>
+                <div class="works__img">
+                    <img src="" alt="">
+
+                    <div class="works__data">
+                        <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                        <span class="works__title">Work 3</span>
+                    </div>
+                </div>
+                <div class="works__img">
+                    <img src="" alt="">
+
+                    <div class="works__data">
+                        <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                        <span class="works__title">Work 4</span>
+                    </div>
+                </div>
+                <div class="works__img">
+                    <img src="" alt="">
+
+                    <div class="works__data">
+                        <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                        <span class="works__title">Work 5</span>
+                    </div>
+                </div>
+                <div class="works__img">
+                    <img src="" alt="">
+
+                    <div class="works__data">
+                        <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                        <span class="works__title">Work 6</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Me-->
+        <section class="contact section" id="contact">
+            <span class="section-subtitle">Contact Me</span>
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="E-mail" class="contact__input">
+                    </div>
+
+                    <input type="text" placeholder="Project" class="contact__input">
+
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                    <input type="submit" value="Send Message" class="button contact__button">
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call Me</h3>
+                        <span class="contact__text">(608) 630-4630</span>
+                        <!-- <span class="contact__text">999-888-7777</span> -->
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <span class="contact__text">samuelfredrickpalmer@gmail.com</span>
+                        <span class="contact__text">samuelpalmer@creighton.edu</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">Madison, Wisconsin</span>
+                        <span class="contact__text">Atlanta, Georgia</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Samuel Palmer</h1>
+            <p class="footer__description">Links to my social accounts.</p>
+
+            <div class="footer__social">
+                <!-- <a href="#" class="footer__link"><i class='bx bxl-facebook' ></i></a> -->
+                <a href="#" class="footer__link"><i class='bx bxl-instagram' ></i></a>
+                <!-- <a href="#" class="footer__link"><i class='bx bxl-twitter' ></i></a> -->
+            </div>
+
+            <p class="footer__copy">All rights reserved by Bedimcode - 2020</p>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
